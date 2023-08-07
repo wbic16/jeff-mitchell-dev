@@ -1,0 +1,4 @@
+# Trunk build configuration
+
+[build]
+dist = "../static"

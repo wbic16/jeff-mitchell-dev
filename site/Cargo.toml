@@ -1,0 +1,24 @@
+# jeff-mitchell-dev/site/Cargo.toml
+# Frontend site cargo configuration
+
+[package]
+name = "jeff-mitchell-dev-site"
+version = "1.2.1"
+edition = "2021"
+
+[[bin]]
+name = "jeff_mitchell_dev_site"
+path = "src/bin/main.rs"
+
+[lib]
+path = "src/lib/lib.rs"
+
+[dependencies]
+chrono = "0.4.24"
+console_error_panic_hook = "0.1.7"
+gloo-net = "0.3.0"
+log = "0.4.17"
+wasm-bindgen-futures = "0.4.36"
+wasm-logger = "0.2.0"
+yew = { version = "0.20", features = [ "csr" ] }
+yew-router = "0.17.0"

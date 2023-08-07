@@ -1,0 +1,24 @@
+# jeff-mitchell-dev .gitignore file
+
+# visual studio code config
+.vscode
+
+# IntelliJ Idea config
+.idea
+
+# misc
+cspell.json
+
+# workspace
+/target
+
+# site
+site/node_modules
+
+# system files
+.DS_store
+.DS_Store
+
+# build output
+/static
+

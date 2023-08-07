@@ -1,0 +1,10 @@
+# jeff-mitchell-dev/Cargo.toml
+# Workspace definition
+
+[workspace]
+members = [
+  "server",
+  "site"
+]
+
+default-members = ["server"]
