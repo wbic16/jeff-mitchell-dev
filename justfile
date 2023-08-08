@@ -4,7 +4,7 @@ run-dev:
 
 # build for deployment
 build-release:
-  cd site && trunk build --release
+  cd site && trunk clean && trunk build --release
 
 # run locally with shuttle
 shuttle-run:

@@ -23,7 +23,7 @@ pub fn HomePage() -> Html {
                     <br />
                     <article>
                         <h2>{ "Latest blog post"}</h2>
-                        <p>{ "I've posted a short "} <a href="https://crusty-rustacean-dev.shuttleapp.rs/rust-learning-journal-week-1/" target="_blank"> {" piece"}</a> {" on my blog about how convert a struct into a vector so you can iterate over its fields."}</p>
+                        <p>{ "I've posted a short "} <a href="https://crusty-rustacean-blog.shuttleapp.rs/rust-learning-journal-week-1/" target="_blank"> {" piece"}</a> {" on my blog about how convert a struct into a vector so you can iterate over its fields."}</p>
                     </article>
                     <br />
                     <article>
