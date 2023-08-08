@@ -11,7 +11,7 @@ use tower_http::services::ServeDir;
 // as well as Shuttle Static Folder (for static file hosting)
 // and Shuttle Turso (for an edge SQlite database)
 #[shuttle_runtime::main]
-async fn axum(
+async fn main(
     #[shuttle_static_folder::StaticFolder] static_folder: PathBuf,
     #[shuttle_turso::Turso(
         addr = "libsql://healthy-lightspeed-sentinel1909.turso.io",
