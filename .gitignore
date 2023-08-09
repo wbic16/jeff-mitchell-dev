@@ -20,5 +20,5 @@ site/node_modules
 .DS_Store
 
 # build output
-/static
+/dist
 
