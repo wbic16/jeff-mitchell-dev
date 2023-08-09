@@ -23,12 +23,12 @@ pub fn HomePage() -> Html {
                     <br />
                     <article>
                         <h2>{ "Latest blog post"}</h2>
-                        <p>{ "I've posted a short "} <a href="https://crusty-rustacean-blog.shuttleapp.rs/rust-learning-journal-week-1/" target="_blank"> {" piece"}</a> {" on my blog about how convert a struct into a vector so you can iterate over its fields."}</p>
+                        <p>{ "I've posted a short "} <a href="https://blog.crusty-rustacean.dev/2023-07-31-packages-crates-modules/" target="_blank"> {" piece"}</a> {" on my blog which provides an overview of packages, crates and modules in Rust."}</p>
                     </article>
                     <br />
                     <article>
                         <h2>{ "Rust short take of the day" }</h2>
-                        <p>{ "Rust has a strong type system which can be leveraged to great effect." }</p>
+                        <p>{ "The enum type is secret sauce in Rust. Enums allow you to represent variations." }</p>
                     </article>
                     <br />
                     <article>

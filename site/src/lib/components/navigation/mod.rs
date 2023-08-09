@@ -14,7 +14,7 @@ pub fn NavBar() -> Html {
           <ul class="nav-links">
             <li><Link<Route> to={Route::Home}>{ "Home" }</Link<Route>></li>
             <li><Link<Route> to={Route::About}>{ "About" }</Link<Route>></li>
-            <li><a href="https://crusty-rustacean-blog.shuttleapp.rs" target="_blank">{ "Blog" }</a></li>
+            <li><a href="https://blog.crusty-rustacean.dev" target="_blank">{ "Blog" }</a></li>
             <li><Link<Route> to={Route::Projects}>{ "Projects" }</Link<Route>></li>
             <li><a href="https://github.com/sentinel1909" target="_blank">{ "GitHub" }</a></li>
           </ul>
