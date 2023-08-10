@@ -16,8 +16,11 @@
   padding: 0;
 }
 
-body {
+html {
   background-color: var(--main-bg-color);
+}
+
+body {
   background: url(jeff-mitchell-dev-background2.jpg) no-repeat center center fixed;
   color: var(--main-text-color);
   line-height: 1.5;
@@ -30,7 +33,7 @@ body {
 
 /* content container */
 .container {
-  max-width: 960px;
+  max-width: 1080px;
   margin: auto auto;
   padding: 20px;
   min-height: 100vh;
@@ -46,8 +49,9 @@ header {
   padding: 20px;
 }
 
-header h1, h2 {
+header h1, h2, h3 {
   font-weight: bold;
+  padding: 10px;
 }
 
 /* nav bar styles */
@@ -81,6 +85,10 @@ nav {
 .content h2, h3 {
   color: var(--main-header-color);
   font-weight: bold;
+}
+
+.content p {
+  padding: 10px;
 }
 
 .content a {
