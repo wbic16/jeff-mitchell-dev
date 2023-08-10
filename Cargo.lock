@@ -886,7 +886,7 @@ checksum = "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6"
 
 [[package]]
 name = "jeff-mitchell-dev-server"
-version = "1.4.1"
+version = "1.4.2"
 dependencies = [
  "axum",
  "shuttle-axum",
@@ -898,7 +898,7 @@ dependencies = [
 
 [[package]]
 name = "jeff-mitchell-dev-site"
-version = "1.4.1"
+version = "1.4.2"
 dependencies = [
  "chrono",
  "console_error_panic_hook",
