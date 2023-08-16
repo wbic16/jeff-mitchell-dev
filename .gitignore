@@ -21,6 +21,8 @@ site/node_modules
 
 # build output
 /dist
-
 /server/dist/
+
+# secrets
+/server/Secrets*.*
 
