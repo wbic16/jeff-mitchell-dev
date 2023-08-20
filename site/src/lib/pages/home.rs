@@ -18,7 +18,7 @@ pub fn HomePage() -> Html {
                 <section>
                     <article>
                         <h2>{ "Welcome to my site" }</h2>
-                        <p>{ "I'm a software developer in Vancouver. I love "} <a href="https://www.rust-lang.org" target="_blank"> { "Rust "}</a> { " and have embraced it as my thing. I like heavy music, sci-fi, landscapes, sunrises and sunsets. I will write here about all of these things." }</p>
+                        <p>{ "I'm a software developer in Vancouver. I love "} <a href="https://www.rust-lang.org" target="_blank"> { "Rust "}</a> { " and have embraced it as my thing. Not to be a one trick pony, I can build in HTML/CSS/JavaScript. I'm sad to admit it, but I enjoy React and can get things done with it." }</p>
                     </article>
                     <br />
                     <article>
@@ -28,12 +28,12 @@ pub fn HomePage() -> Html {
                     <br />
                     <article>
                         <h2>{ "Rust short take of the day" }</h2>
-                        <p>{ "The enum type is secret sauce in Rust. Enums allow you to represent variations." }</p>
+                        <p>{ "The enum type is secret sauce in Rust. Enums allow you to represent variations of types." }</p>
                     </article>
                     <br />
                     <article>
-                        <h2>{ "Sites I enjoy" }</h2>
-                        <p><a href="https://apod.nasa.gov/apod/astropix.html" target="_blank">{ "Astronomy Picture of the Day" }</a></p>
+                        <h2>{ "Something I've Made" }</h2>
+                        <p><a href="https://nasaapodviewer.shuttleapp.rs" target="_blank">{ "Astronomy Picture of the Day" }</a></p>
                     </article>
                     <br />
                     <article>

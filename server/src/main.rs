@@ -1,10 +1,17 @@
 // src/main.rs
 
 // dependencies
-use axum::Router;
+use axum::{http::StatusCode, response::IntoResponse, routing::get, Router};
 use shuttle_axum::ShuttleAxum;
 use std::path::PathBuf;
 use tower_http::services::ServeDir;
+use tracing::info;
+
+// health_check endpoint
+// serves a 200 OK response with no body
+async fn health_check() -> impl IntoResponse {
+    StatusCode::OK
+}
 
 // main function, annotated with the Shuttle runtime
 // as well as Shuttle Static Folder (for static file hosting)
@@ -13,7 +20,10 @@ use tower_http::services::ServeDir;
 async fn main(
     #[shuttle_static_folder::StaticFolder(folder = "dist")] dist_folder: PathBuf,
 ) -> ShuttleAxum {
-    let router = Router::new().nest_service("/", ServeDir::new(dist_folder));
+    let router = Router::new()
+        .route("/health_check", get(health_check))
+        .nest_service("/", ServeDir::new(dist_folder));
 
+    info!("Server listening on port 8000...");
     Ok(router.into())
 }
