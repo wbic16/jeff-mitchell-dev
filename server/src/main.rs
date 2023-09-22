@@ -20,7 +20,7 @@ async fn health_check() -> impl IntoResponse {
 async fn main() -> ShuttleAxum {
     let router = Router::new()
         .route("/health_check", get(health_check))
-        .nest_service("/", ServeDir::new(PathBuf::from("/dist")));
+        .nest_service("/", ServeDir::new(PathBuf::from("dist")));
 
     info!("Server listening on port 8000...");
     Ok(router.into())
