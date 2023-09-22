@@ -1034,7 +1034,7 @@ checksum = "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6"
 
 [[package]]
 name = "jeff-mitchell-dev-server"
-version = "1.5.0"
+version = "1.6.0"
 dependencies = [
  "axum",
  "shuttle-axum",
