@@ -18,21 +18,17 @@ pub fn HomePage() -> Html {
                 <section>
                     <article>
                         <h2>{ "Welcome to my site" }</h2>
-                        <p>{ "I'm a software developer in Vancouver. I love "} <a href="https://www.rust-lang.org" rel="noreferrer" target="_blank"> { "Rust "}</a> { " and have embraced it as my thing. Not to be a one trick pony, I can build in HTML/CSS/JavaScript. I'm sad to admit it, but I enjoy React and can get things done with it." }</p>
-                    </article>
-                    <br />
-                    <article>
-                        <h2>{ "Latest blog post"}</h2>
-                        <p>{ "I've posted a short "} <a href="https://blog.crusty-rustacean.dev/posts/2023/2023_07_31_packages_crates_modules/" rel="noreferrer" target="_blank"> {" piece"}</a> {" on my blog which provides an overview of packages, crates and modules in Rust."}</p>
+                        <p>{ "I'm a self-taught software developer in Vancouver. I love the Rust programming language, it's my primary focus. I can build in good 'ol HTML/CSS/JavaScript. I'm a fan of typing though, so I'm learning TypeScript. My motto is: Rust on the back, TypeScript on the front." }</p>
                     </article>
                     <br />
                     <article>
                         <h2>{ "Rust short take of the day" }</h2>
-                        <p>{ "The enum type is secret sauce in Rust. Enums allow you to represent variations of types." }</p>
+                        <p>{ "The Option type is Rust's solution to the billion dollar mistake. It's an enum which can represent the presence or absence of a value." }</p>
                     </article>
                     <br />
                     <article>
                         <h2>{ "Something I've Made" }</h2>
+                        <p>{ "My take on the NASA Astronomy Photo of the Day" }</p>
                         <p><a href="https://nasaapodviewer.shuttleapp.rs" rel="noreferrer" target="_blank">{ "Astronomy Picture of the Day" }</a></p>
                     </article>
                     <br />

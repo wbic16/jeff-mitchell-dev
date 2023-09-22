@@ -7,4 +7,6 @@ members = [
   "site"
 ]
 
+resolver = "2"
+
 default-members = ["server"]

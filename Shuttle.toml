@@ -2,3 +2,7 @@
 # Shuttle project name configuration
 
 name = "jeff-mitchell-dev"
+
+assets = [
+  "dist/*"
+]

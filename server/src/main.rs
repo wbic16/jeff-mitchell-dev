@@ -17,12 +17,10 @@ async fn health_check() -> impl IntoResponse {
 // as well as Shuttle Static Folder (for static file hosting)
 // and Shuttle Turso (for an edge SQlite database)
 #[shuttle_runtime::main]
-async fn main(
-    #[shuttle_static_folder::StaticFolder(folder = "dist")] dist_folder: PathBuf,
-) -> ShuttleAxum {
+async fn main() -> ShuttleAxum {
     let router = Router::new()
         .route("/health_check", get(health_check))
-        .nest_service("/", ServeDir::new(dist_folder));
+        .nest_service("/", ServeDir::new(PathBuf::from("/dist")));
 
     info!("Server listening on port 8000...");
     Ok(router.into())
