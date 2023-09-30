@@ -3,7 +3,7 @@
 
 [package]
 name = "jeff-mitchell-dev-site"
-version = "1.6.0"
+version = "1.7.0"
 edition = "2021"
 
 [[bin]]
@@ -14,11 +14,11 @@ path = "src/bin/main.rs"
 path = "src/lib/lib.rs"
 
 [dependencies]
-chrono = "0.4.24"
+chrono = "0.4.31"
 console_error_panic_hook = "0.1.7"
 gloo-net = "0.4.0"
-log = "0.4.17"
-wasm-bindgen-futures = "0.4.36"
+log = "0.4.20"
+wasm-bindgen-futures = "0.4.37"
 wasm-logger = "0.2.0"
-yew = { version = "0.20", features = [ "csr" ] }
-yew-router = "0.17.0"
+yew = { version = "0.21", features = [ "csr" ] }
+yew-router = "0.18.0"
