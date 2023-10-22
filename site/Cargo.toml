@@ -3,7 +3,7 @@
 
 [package]
 name = "jeff-mitchell-dev-site"
-version = "1.7.0"
+version = "1.8.0"
 edition = "2021"
 
 [[bin]]
