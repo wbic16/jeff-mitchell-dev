@@ -6,7 +6,7 @@
 use crate::components::footer::SiteFooter;
 use crate::components::header::SiteHeader;
 use crate::components::navigation::NavBar;
-use yew::{function_component, html, Html};
+use yew::{function_component, classes, html, Html};
 
 #[function_component]
 pub fn ProjectsPage() -> Html {
@@ -16,7 +16,7 @@ pub fn ProjectsPage() -> Html {
             <br />
             <NavBar />
             <br />
-            <main class="content">
+            <main class={classes!("content")}>
                 <section>
                     <article>
                         <h2>{ "Current Projects" }</h2>

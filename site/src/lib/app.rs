@@ -10,7 +10,7 @@ use yew_router::Switch;
 #[function_component]
 pub fn App() -> Html {
     html! {
-      <div class="container">
+      <div class={classes!("container")}>
         <BrowserRouter>
           <Switch<Route> render={switch} />
         </BrowserRouter>

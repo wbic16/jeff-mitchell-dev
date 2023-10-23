@@ -2,6 +2,7 @@
 
 // dependencies
 use crate::pages::about::AboutPage;
+use crate::pages::astronomy::AstronomyPage;
 use crate::pages::home::HomePage;
 use crate::pages::projects::ProjectsPage;
 use yew::{html, Html};
@@ -14,6 +15,8 @@ pub enum Route {
     Home,
     #[at("/about")]
     About,
+    #[at("/astronomy")]
+    Astronomy,
     #[at("/projects")]
     Projects,
 }
@@ -26,6 +29,9 @@ pub fn switch(routes: Route) -> Html {
         },
         Route::About => html! {
             <AboutPage />
+        },
+        Route::Astronomy => html! {
+            <AstronomyPage />
         },
         Route::Projects => html! {
             <ProjectsPage />

@@ -1207,7 +1207,7 @@ checksum = "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6"
 
 [[package]]
 name = "jeff-mitchell-dev-server"
-version = "1.8.0"
+version = "2.0.0"
 dependencies = [
  "axum",
  "shuttle-axum",
@@ -1219,12 +1219,14 @@ dependencies = [
 
 [[package]]
 name = "jeff-mitchell-dev-site"
-version = "1.8.0"
+version = "2.0.0"
 dependencies = [
  "chrono",
  "console_error_panic_hook",
  "gloo-net 0.4.0",
  "log",
+ "serde",
+ "url",
  "wasm-bindgen-futures",
  "wasm-logger",
  "yew",
@@ -1981,9 +1983,9 @@ dependencies = [
 
 [[package]]
 name = "serde"
-version = "1.0.174"
+version = "1.0.189"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3b88756493a5bd5e5395d53baa70b194b05764ab85b59e43e4b8f4e1192fa9b1"
+checksum = "8e422a44e74ad4001bdc8eede9a4570ab52f71190e9c076d14369f38b9200537"
 dependencies = [
  "serde_derive",
 ]
@@ -2012,9 +2014,9 @@ dependencies = [
 
 [[package]]
 name = "serde_derive"
-version = "1.0.174"
+version = "1.0.189"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6e5c3a298c7f978e53536f95a63bdc4c4a64550582f31a0359a9afda6aede62e"
+checksum = "1e48d1f918009ce3145511378cf68d613e3b3d9137d67272562080d68a2b32d5"
 dependencies = [
  "proc-macro2",
  "quote",

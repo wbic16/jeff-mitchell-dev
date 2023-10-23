@@ -3,7 +3,7 @@
 
 [package]
 name = "jeff-mitchell-dev-site"
-version = "1.8.0"
+version = "2.0.0"
 edition = "2021"
 
 [[bin]]
@@ -18,6 +18,8 @@ chrono = "0.4.31"
 console_error_panic_hook = "0.1.7"
 gloo-net = "0.4.0"
 log = "0.4.20"
+serde = { version = "1.0.188", features = ["derive"] }
+url = "2.4.1"
 wasm-bindgen-futures = "0.4.37"
 wasm-logger = "0.2.0"
 yew = { version = "0.21", features = [ "csr" ] }
