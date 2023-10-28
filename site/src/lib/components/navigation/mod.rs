@@ -4,14 +4,14 @@
 
 // dependencies
 use crate::routes::Route;
-use yew::{function_component, html, Html};
+use yew::{classes, function_component, html, Html};
 use yew_router::prelude::Link;
 
 #[function_component]
 pub fn NavBar() -> Html {
     html! {
         <nav>
-          <ul class="nav-links">
+          <ul class={classes!("nav-links")}>
             <li><Link<Route> to={Route::Home}>{ "Home" }</Link<Route>></li>
             <li><Link<Route> to={Route::About}>{ "About" }</Link<Route>></li>
             <li><Link<Route> to={Route::Astronomy}>{ "Astronomy" }</Link<Route>></li>
