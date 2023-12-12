@@ -31,6 +31,11 @@ pub fn ProjectsPage() -> Html {
                         <p>{ "Source code is "} <a href="https://github.com/sentinel1909/markdown-html-rs" target="_blank">{ " here"}</a></p>
                     </article>
                     <br />
+                    <article>
+                        <h3>{ "Shuttle Christmas Code Hunt" }</h3>
+                        <p>{ "I'm currently working on the Shuttle Christmas Code Hunt, which is a series of Rust challenges, with a Christmas theme, to help people learn Rust."}</p>
+                        <p>{ "Source code is "} <a href="https://github.com/sentinel1909/shuttle-cch23" target="_blank">{ " here"}</a></p>
+                    </article>
                 </section>
             </main>
             <br />
