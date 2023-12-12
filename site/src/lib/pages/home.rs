@@ -27,9 +27,14 @@ pub fn HomePage() -> Html {
                     </article>
                     <br />
                     <article>
+                        <h2>{ "Rust crate of the month" }</h2>
+                        <p>{ "The Rust crate of the month is " } <a href="https://crates.io/crates/nom" rel="noreferrer" target="_blank"> {"Nom"}</a></p>
+                    </article>
+                    <br />
+                    <article>
                         <h2>{ "Newsletter"}</h2>
                         <p>{"My newsletter service has been soft launched. The sign-up page can be found here: "} <a href="https://newsletter.crusty-rustacean.dev" rel="noreferrer" target="_blank"> {" Crusty Rustacean Newsletter"}</a></p>
-                    </article>
+                    </article>                    
                 </section>
             </main>
             <br />

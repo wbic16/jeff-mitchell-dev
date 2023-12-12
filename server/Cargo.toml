@@ -1,6 +1,6 @@
 [package]
 name = "jeff-mitchell-dev-server"
-version = "3.0.0"
+version = "1.35.0"
 edition = "2021"
 publish = false
 
@@ -8,6 +8,6 @@ publish = false
 
 [dependencies]
 rocket = "0.5.0"
-shuttle-rocket = "0.34.0"
-shuttle-runtime = "0.34.0"
+shuttle-rocket = "0.35.0"
+shuttle-runtime = "0.35.0"
 
