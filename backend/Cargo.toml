@@ -1,0 +1,18 @@
+[package]
+name = "jeff-mitchell-dev-backend"
+version = "2.36.0"
+edition = "2021"
+description = "Server for the jeff-mitchell.dev site"
+readme = "README.md"
+authors = ["Jeffery D. Mitchell", "<crusty-rustacean@jeffmitchelldev.com>"]
+repository = "https://github.com/sentinel1909/jeff-mitchell-dev"
+license = 'MIT'
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.5.0"
+shuttle-rocket = "0.36.0"
+shuttle-runtime = "0.36.0"
+

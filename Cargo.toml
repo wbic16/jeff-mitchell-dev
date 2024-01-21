@@ -3,10 +3,10 @@
 
 [workspace]
 members = [
-  "server",
-  "site"
+  "backend",
+  "frontend"
 ]
 
 resolver = "2"
 
-default-members = ["server"]
+default-members = ["backend"]

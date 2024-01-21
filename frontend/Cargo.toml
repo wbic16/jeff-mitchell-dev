@@ -1,0 +1,14 @@
+# jeff-mitchell-dev/site/Cargo.toml
+# Frontend site cargo configuration
+
+[package]
+name = "jeff-mitchell-dev-frontend"
+version = "1.35.12"
+edition = "2021"
+
+[[bin]]
+name = "jeff_mitchell_dev_frontend"
+path = "src/bin/main.rs"
+
+[dependencies]
+leptos = { version = "0.5.7", features = [ "csr" ] }

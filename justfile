@@ -1,15 +1,15 @@
 # start development
 run-dev:
-  cd site && trunk serve --open
+  cd frontend && trunk serve --open
 
 # build for deployment
 build-release:
-  cd site && trunk clean && trunk build --release
+  cd frontend && trunk clean && trunk build --release
 
 # run locally with shuttle
-shuttle-run:
+shuttle-local:
   cargo shuttle run
 
 # deploy to shuttle
 shuttle-deploy:
-  rm -r dist && cp -r server/dist/ dist && cargo shuttle project restart && cargo shuttle deploy
+  rm -r dist && cp -r backend/dist/ dist && cargo shuttle project restart && cargo shuttle deploy

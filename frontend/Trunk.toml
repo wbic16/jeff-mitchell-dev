@@ -1,4 +1,4 @@
 # Trunk build configuration
 
 [build]
-dist = "../server/dist"
+dist = "../backend/dist"
