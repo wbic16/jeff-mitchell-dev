@@ -1,20 +1,20 @@
 # Jeff Mitchell's Dev Profile Site
 
-Welcome to my developer profile site, written in Rust, with the Yew web framework. Styling is done with Vanilla CSS.  This code base is open to all to study, use, refine, and extend.  I only ask that you try to make your own content.
+Welcome to my developer profile site, written in Rust, with the Leptos web framework. Styling is done with Tailwind CSS.  This code base is open to all to study, use, refine, and extend.  I only ask that you try to make your own content.
 
 I welcome contributions to this site, especially styling. I prepared this readme file to help those who just want to do that. To get started, here are some instructions:
 
 ## Fork
 
-Fork this repo to your own GitHub account. This will allow you to contribute back by creating branches with new additions for which you can send me pull requests. I will evaluate them and incorporate them if I feel they benefit and enhance the site.  If you don't know how to fork, Google it, then come back.
+Fork this repo to your own GitHub account. This will allow you to contribute back by creating branches with new additions for which you can send me pull requests. I will evaluate them and incorporate them if I feel they benefit the site.  If you don't know how to fork, Google it, then come back.
 
 ## Install Rust
 
 Sorry, you have to.  Instructions are here: [Install Rust](https://rust-lang.org/tools/install). Once Rust is installed on your computer, you'll have access to the cargo build tool.
 
-## Do the Yew Tutorial
+## Do the Leptos Book
 
-This site is written using the Yew framework for Rust.  If you've used React, you'll be right at home.  Yew is heavily inspired by React.  I recommend doing the Yew tutorial here: [Yew Tutorial](https://yew.rs/docs/tutorial) Trust me, it's excellent and time well spent.
+This site is written using the Leptos framework for Rust.  If you've used another declarative library or framework (i.e. React or Svelte), you'll be right at home.  I recommend doing the Leptos book from beginning to end here: [Leptos Book](https://book.leptos.dev/) Trust me, it's excellent and time well spent.
 
 ## Install Prerequisites
 
@@ -41,10 +41,10 @@ Yes, I know, the unknown-unknown thing is weird. I stopped worrying about it a l
 The front-end content for this site lives in the \site folder.  To work on it, type:
 
 ```bash
-cd site
+cd frontend
 ```
 
-The site is built using the index.html file at the root of the site folder.  Assets live in `\assets\styles\styles.css` and are linked in via the head tag at the top of index.html. You don't need to touch this though to work on the look and feel of the site.
+The site is built using the index.html file at the root of the site folder.  Assets live in `\assets` and are linked in via the head tag at the top of index.html. You don't need to touch this though to work on the look and feel of the site.
 
 To start a hot-reload development loop, type:
 
@@ -52,7 +52,7 @@ To start a hot-reload development loop, type:
 trunk serve --open
 ```
 
-You can then work with styles.css and make whatever layout changes you want.  When you save, the site will be reloaded.
+You can then add Tailwind classes and make whatever layout changes you want.  When you save, the site will be reloaded.  Right now, the site consists of a single `<App />` component which renders the site content. This lives within `frontend\src\bin\main.rs`. In the future I'll be adding a page router and splitting the site up into pages and components.
 
 
 

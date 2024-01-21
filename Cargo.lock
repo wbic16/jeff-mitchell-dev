@@ -1115,7 +1115,7 @@ checksum = "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6"
 
 [[package]]
 name = "jeff-mitchell-dev-backend"
-version = "2.36.0"
+version = "2.36.1"
 dependencies = [
  "rocket",
  "shuttle-rocket",
@@ -1124,7 +1124,7 @@ dependencies = [
 
 [[package]]
 name = "jeff-mitchell-dev-frontend"
-version = "1.35.12"
+version = "2.36.1"
 dependencies = [
  "leptos",
 ]
